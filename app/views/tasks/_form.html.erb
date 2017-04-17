@@ -9,8 +9,11 @@
     </div>
   <% end %>
   
-  <%= f.label :content, 'タスクリスト' %>
-  <%= f.text_field :content %>
+  <p><%= f.label :status, 'ステータス' %>
+  <%= f.text_field :status %></p>
 
-  <%= f. '追加' %>
+  <p><%= f.label :content, 'タスクリスト' %>
+  <%= f.text_field :content %></p>
+
+  <%= f.submit '追加' %>
 <% end %>
